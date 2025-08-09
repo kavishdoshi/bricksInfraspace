@@ -81,7 +81,7 @@ function Hero() {
         </div>
         <div className="relative w-full aspect-[4/3] md:aspect-[16/9] rounded-2xl overflow-hidden border border-[var(--border)]">
           <Image
-            src="/IMG_3383.svg"
+            src="/IMG_3383.jpg"
             alt="Featured project poster"
             fill
             className="object-cover object-center"
