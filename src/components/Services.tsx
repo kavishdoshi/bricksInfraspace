@@ -25,9 +25,9 @@ export function Services() {
 	return (
 		<section id="services" className="section-muted py-16 md:py-24">
 			<div className="mx-auto max-w-7xl px-6">
-				<div className="flex items-end justify-between mb-10">
-					<h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Services</h2>
-					<p className="text-sm text-muted-foreground max-w-[52ch]">
+        		<div className="flex items-end justify-between mb-10">
+         			<h2 className="text-2xl md:text-3xl font-medium tracking-tight">Services </h2>
+          			<p className="text-sm text-muted-foreground max-w-[52ch]">
 						From planning and permits to final finishes—transparent process and dependable workmanship.
 					</p>
 				</div>
