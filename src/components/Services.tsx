@@ -27,7 +27,7 @@ export function Services() {
 			<div className="mx-auto max-w-7xl px-6">
 				<div className="flex items-end justify-between mb-10">
 					<h2 className="text-2xl md:text-3xl font-semibold tracking-tight">Services</h2>
-					<p className="text-sm text-zinc-600 dark:text-zinc-400 max-w-[52ch]">
+					<p className="text-sm text-muted-foreground max-w-[52ch]">
 						From planning and permits to final finishes—transparent process and dependable workmanship.
 					</p>
 				</div>
