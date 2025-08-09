@@ -15,7 +15,7 @@ function Navbar() {
           aria-label="Bricks Infraspace home"
         >
           <Image
-            src="/logo-bricks-infraspace.jpeg"
+            src="/logo-bricks-infraspace.svg"
             alt="Bricks Infraspace logo"
             width={160}
             height={40}
@@ -81,7 +81,7 @@ function Hero() {
         </div>
         <div className="relative w-full aspect-[4/3] md:aspect-[16/9] rounded-2xl overflow-hidden border border-[var(--border)]">
           <Image
-            src="/IMG_3383.jpg"
+            src="/IMG_3383.svg"
             alt="Featured project poster"
             fill
             className="object-cover object-center"
