@@ -6,8 +6,9 @@ export type DriveItem =
   | { kind: "video"; id: string; title?: string; location?: string };
 
 export function driveImageSrc(id: string) {
-  // Use Drive's uc endpoint; compatible with next.config images remotePatterns for drive.google.com
-  return `https://drive.google.com/uc?export=view&id=${id}`;
+  // Use Google's image CDN endpoint for direct image bytes
+  // Note: ensure the Drive file is shared publicly (Anyone with the link)
+  return `https://lh3.googleusercontent.com/d/${id}=s2048`;
 }
 
 export function drivePreviewSrc(id: string) {
