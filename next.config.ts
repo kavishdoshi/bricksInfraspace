@@ -1,7 +1,5 @@
 import type { NextConfig } from "next";
 
-const basePathEnv = process.env.NEXT_PUBLIC_BASE_PATH;
-
 const nextConfig: NextConfig = {
   // Enable static export for GitHub Pages
   output: "export",
@@ -15,13 +13,9 @@ const nextConfig: NextConfig = {
       { protocol: "https", hostname: "drive.google.com" },
     ],
   },
-  // Configure basePath and assetPrefix for project sites (e.g., /<repo>) when provided via env var
-  ...(basePathEnv
-    ? {
-        basePath: basePathEnv,
-        assetPrefix: `${basePathEnv}/`,
-      }
-    : {}),
+  // Set basePath/assetPrefix for project site hosted at /bricksInfraspace
+  basePath: "/bricksInfraspace",
+  assetPrefix: "/bricksInfraspace",
 };
 
 export default nextConfig;
