@@ -15,7 +15,7 @@ function Navbar() {
           aria-label="Bricks Infraspace home"
         >
           <Image
-            src="../../public/logo-bricks-infraspace.svg"
+            src="/logo-bricks-infraspace.svg"
             alt="Bricks Infraspace logo"
             width={160}
             height={40}
